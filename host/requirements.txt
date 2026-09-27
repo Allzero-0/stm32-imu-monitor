@@ -1,0 +1,6 @@
+pyserial>=3.5
+
+# 说明：
+#   上位机只依赖 pyserial 一个包。
+#   可视化页面 (web/index.html) 是原生 HTML + Canvas，不需要任何前端框架，
+#   也不依赖 numpy / matplotlib —— 这是刻意做的轻量化设计。

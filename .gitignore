@@ -1,0 +1,21 @@
+# 构建产物
+firmware/build/
+*.o
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# 上位机运行产物
+host/logs/
+host/__pycache__/
+*.pyc
+*.pyo
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
